@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\tarik\\OneDrive\\Belgeler\\GitHub\\Mobil-Programlama\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\tarik\\AndroidStudioProjects\\mobil-programlama\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\tarik\\OneDrive\\Belgeler\\GitHub\\Mobil-Programlama\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,714",
-                        "endColumns": "143,81,103,108,119,99,76",
-                        "endOffsets": "194,276,380,489,609,709,786"
-                    },
-                    "to": {
-                        "startLines": "104,105,106,107,108,109,110",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "7730,7874,7956,8060,8169,8289,8389",
-                        "endColumns": "143,81,103,108,119,99,76",
-                        "endOffsets": "7869,7951,8055,8164,8284,8384,8461"
-                    }
-                },
                 {
                     "source": "C:\\Users\\tarik\\.gradle\\caches\\transforms-2\\files-2.1\\81afe58a448e3ee778bc0f2a4c0fa85d\\play-services-base-17.1.0\\res\\values\\values.xml",
                     "from": {
@@ -57,7 +40,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tarik\\OneDrive\\Belgeler\\GitHub\\Mobil-Programlama\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\tarik\\AndroidStudioProjects\\mobil-programlama\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,714",
+                        "endColumns": "143,81,103,108,119,99,76",
+                        "endOffsets": "194,276,380,489,609,709,786"
+                    },
+                    "to": {
+                        "startLines": "104,105,106,107,108,109,110",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "7730,7874,7956,8060,8169,8289,8389",
+                        "endColumns": "143,81,103,108,119,99,76",
+                        "endOffsets": "7869,7951,8055,8164,8284,8384,8461"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\tarik\\AndroidStudioProjects\\mobil-programlama\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

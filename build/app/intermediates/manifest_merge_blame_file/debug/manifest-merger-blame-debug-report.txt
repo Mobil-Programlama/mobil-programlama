@@ -12,14 +12,14 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
-15-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+15-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
-16-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+16-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+16-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 17-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\tarik\.gradle\caches\transforms-2\files-2.1\2cd04956d3bf0d9697b636aea3d8a55a\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:5-79
 17-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\tarik\.gradle\caches\transforms-2\files-2.1\2cd04956d3bf0d9697b636aea3d8a55a\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:22-76
@@ -37,30 +37,30 @@
 25         FlutterApplication and put your custom class here.
 26    -->
 27    <application
-27-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:8:5-46:19
+27-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:8:5-46:19
 28        android:name="io.flutter.app.FlutterApplication"
-28-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:9:9-57
+28-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:9:9-57
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 29-->[androidx.core:core:1.1.0] C:\Users\tarik\.gradle\caches\transforms-2\files-2.1\e6856c7cff7219f18cbbcc5d8d7cecec\core-1.1.0\AndroidManifest.xml:24:18-86
 30        android:debuggable="true"
 31        android:icon="@mipmap/ic_launcher"
-31-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:11:9-43
+31-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:11:9-43
 32        android:label="e_shop" >
-32-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:10:9-31
+32-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:10:9-31
 33        <activity
-33-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:12:9-40:20
+33-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:12:9-40:20
 34            android:name="com.muhammadali.e_shop.MainActivity"
-34-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:13:13-41
+34-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:13:13-41
 35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-35-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:16:13-163
+35-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:16:13-163
 36            android:hardwareAccelerated="true"
-36-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:17:13-47
+36-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:17:13-47
 37            android:launchMode="singleTop"
-37-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:14:13-43
+37-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:14:13-43
 38            android:theme="@style/LaunchTheme"
-38-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:15:13-47
+38-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:15:13-47
 39            android:windowSoftInputMode="adjustResize" >
-39-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:18:13-55
+39-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:18:13-55
 40
 41            <!--
 42                 Specifies an Android theme to apply to this Activity as soon as
@@ -69,11 +69,11 @@
 45                 to determine the Window background behind the Flutter UI.
 46            -->
 47            <meta-data
-47-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:23:13-26:17
+47-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:23:13-26:17
 48                android:name="io.flutter.embedding.android.NormalTheme"
-48-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:24:15-70
+48-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:24:15-70
 49                android:resource="@style/NormalTheme" />
-49-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:25:15-52
+49-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:25:15-52
 50            <!--
 51                 Displays an Android View that continues showing the launch screen
 52                 Drawable until Flutter paints its first frame, then this splash
@@ -82,21 +82,21 @@
 55                 Flutter's first frame.
 56            -->
 57            <meta-data
-57-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:32:13-35:17
+57-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:32:13-35:17
 58                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-58-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:33:15-79
+58-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:33:15-79
 59                android:resource="@drawable/launch_background" />
-59-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:34:15-61
+59-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:34:15-61
 60
 61            <intent-filter>
-61-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:36:13-39:29
+61-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:36:13-39:29
 62                <action android:name="android.intent.action.MAIN" />
-62-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:37:17-68
-62-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:37:25-66
+62-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:37:17-68
+62-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:37:25-66
 63
 64                <category android:name="android.intent.category.LAUNCHER" />
-64-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:38:17-76
-64-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:38:27-74
+64-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:38:17-76
+64-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:38:27-74
 65            </intent-filter>
 66        </activity>
 67        <!--
@@ -104,44 +104,44 @@
 69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 70        -->
 71        <meta-data
-71-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:43:9-45:33
+71-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:43:9-45:33
 72            android:name="flutterEmbedding"
-72-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:44:13-44
+72-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:44:13-44
 73            android:value="2" />
-73-->C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\android\app\src\main\AndroidManifest.xml:45:13-30
+73-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:45:13-30
 74
 75        <service
-75-->[:firebase_storage] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+75-->[:firebase_storage] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 76            android:name="com.google.firebase.components.ComponentDiscoveryService"
-76-->[:firebase_storage] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+76-->[:firebase_storage] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
 77            android:directBootAware="true"
 77-->[com.google.firebase:firebase-common:19.5.0] C:\Users\tarik\.gradle\caches\transforms-2\files-2.1\bb2bac40b5e67733b887f25f3c2422c6\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
 78            android:exported="false" >
 78-->[com.google.firebase:firebase-analytics-ktx:18.0.0] C:\Users\tarik\.gradle\caches\transforms-2\files-2.1\398e7c423ce1b404ede0c32d2c64ce6b\firebase-analytics-ktx-18.0.0\AndroidManifest.xml:10:13-37
 79            <meta-data
-79-->[:firebase_storage] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+79-->[:firebase_storage] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-80-->[:firebase_storage] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+80-->[:firebase_storage] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 81                android:value="com.google.firebase.components.ComponentRegistrar" />
-81-->[:firebase_storage] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+81-->[:firebase_storage] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 82            <meta-data
-82-->[:firebase_auth] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+82-->[:firebase_auth] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 83                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
-83-->[:firebase_auth] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+83-->[:firebase_auth] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
 84                android:value="com.google.firebase.components.ComponentRegistrar" />
-84-->[:firebase_auth] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+84-->[:firebase_auth] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 85            <meta-data
-85-->[:cloud_firestore] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+85-->[:cloud_firestore] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
-86-->[:cloud_firestore] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+86-->[:cloud_firestore] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
 87                android:value="com.google.firebase.components.ComponentRegistrar" />
-87-->[:cloud_firestore] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+87-->[:cloud_firestore] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 88            <meta-data
-88-->[:firebase_core] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+88-->[:firebase_core] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
-89-->[:firebase_core] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+89-->[:firebase_core] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
 90                android:value="com.google.firebase.components.ComponentRegistrar" />
-90-->[:firebase_core] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+90-->[:firebase_core] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 91            <meta-data
 91-->[com.google.firebase:firebase-analytics-ktx:18.0.0] C:\Users\tarik\.gradle\caches\transforms-2\files-2.1\398e7c423ce1b404ede0c32d2c64ce6b\firebase-analytics-ktx-18.0.0\AndroidManifest.xml:11:13-13:85
 92                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
@@ -197,21 +197,21 @@
 119        </service>
 120
 121        <provider
-121-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+121-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
 122            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-122-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+122-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
 123            android:authorities="com.final.eshop.flutter.image_provider"
-123-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+123-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
 124            android:exported="false"
-124-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+124-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
 125            android:grantUriPermissions="true" >
-125-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+125-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
 126            <meta-data
-126-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+126-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
 127                android:name="android.support.FILE_PROVIDER_PATHS"
-127-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+127-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
 128                android:resource="@xml/flutter_image_picker_file_paths" />
-128-->[:image_picker] C:\Users\tarik\OneDrive\Belgeler\GitHub\Mobil-Programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+128-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
 129        </provider>
 130
 131        <activity
