@@ -60,7 +60,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Material(
-      //asdasdasd
+      //denemem
       child: Container(
         decoration: new BoxDecoration(
           gradient: new LinearGradient(
