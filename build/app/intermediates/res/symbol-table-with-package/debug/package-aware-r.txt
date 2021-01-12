@@ -1,4 +1,4 @@
-com.final.eshop
+com.tarik.shop
 attr alpha
 attr buttonSize
 attr circleCrop

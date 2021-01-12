@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:e_shop/Counters/BookQuantity.dart';
+import 'package:e_shop/Counters/itemQuantity.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -16,19 +16,29 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   EcommerceApp.auth = FirebaseAuth.instance;
+  EcommerceApp.sharedPreferences = await SharedPreferences.getInstance();
+  EcommerceApp.firestore = Firestore.instance;
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        title: 'e-Shop',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primaryColor: Colors.green,
-        ),
-        home: SplashScreen());
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (c) => CartItemCounter()),
+        ChangeNotifierProvider(create: (c) => CartItemCounter()),
+        ChangeNotifierProvider(create: (c) => AddressChanger()),
+        ChangeNotifierProvider(create: (c) => TotalAmount()),
+      ],
+      child: MaterialApp(
+          title: 'eshop',
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+            primaryColor: Colors.green,
+          ),
+          home: SplashScreen()),
+    );
   }
 }
 
@@ -60,11 +70,10 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Material(
-      //denemem
       child: Container(
         decoration: new BoxDecoration(
           gradient: new LinearGradient(
-            colors: [Colors.pink, Colors.lightGreenAccent],
+            colors: [Colors.green, Colors.orange],
             begin: const FractionalOffset(0.0, 0.0),
             end: const FractionalOffset(1.0, 0.0),
             stops: [0.0, 1.0],

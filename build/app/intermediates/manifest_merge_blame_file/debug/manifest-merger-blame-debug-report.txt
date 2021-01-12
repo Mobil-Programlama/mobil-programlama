@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.final.eshop"
+3    package="com.tarik.shop"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -45,11 +45,11 @@
 30        android:debuggable="true"
 31        android:icon="@mipmap/ic_launcher"
 31-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:11:9-43
-32        android:label="e_shop" >
-32-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:10:9-31
+32        android:label="Final" >
+32-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:10:9-30
 33        <activity
 33-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:12:9-40:20
-34            android:name="com.muhammadali.e_shop.MainActivity"
+34            android:name="com.tarik.shop.MainActivity"
 34-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:13:13-41
 35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 35-->C:\Users\tarik\AndroidStudioProjects\mobil-programlama\android\app\src\main\AndroidManifest.xml:16:13-163
@@ -200,7 +200,7 @@
 121-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
 122            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
 122-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
-123            android:authorities="com.final.eshop.flutter.image_provider"
+123            android:authorities="com.tarik.shop.flutter.image_provider"
 123-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
 124            android:exported="false"
 124-->[:image_picker] C:\Users\tarik\AndroidStudioProjects\mobil-programlama\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
@@ -318,7 +318,7 @@
 184-->[com.google.firebase:firebase-common:19.5.0] C:\Users\tarik\.gradle\caches\transforms-2\files-2.1\bb2bac40b5e67733b887f25f3c2422c6\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
 185            android:name="com.google.firebase.provider.FirebaseInitProvider"
 185-->[com.google.firebase:firebase-common:19.5.0] C:\Users\tarik\.gradle\caches\transforms-2\files-2.1\bb2bac40b5e67733b887f25f3c2422c6\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-186            android:authorities="com.final.eshop.firebaseinitprovider"
+186            android:authorities="com.tarik.shop.firebaseinitprovider"
 186-->[com.google.firebase:firebase-common:19.5.0] C:\Users\tarik\.gradle\caches\transforms-2\files-2.1\bb2bac40b5e67733b887f25f3c2422c6\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
 187            android:directBootAware="true"
 187-->[com.google.firebase:firebase-common:19.5.0] C:\Users\tarik\.gradle\caches\transforms-2\files-2.1\bb2bac40b5e67733b887f25f3c2422c6\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43

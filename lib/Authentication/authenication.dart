@@ -18,7 +18,7 @@ class _AuthenticScreenState extends State<AuthenticScreen> {
           flexibleSpace: Container(
             decoration: new BoxDecoration(
               gradient: new LinearGradient(
-                colors: [Colors.pink, Colors.lightGreenAccent],
+                colors: [Colors.green, Colors.orange],
                 begin: const FractionalOffset(0.0, 0.0),
                 end: const FractionalOffset(1.0, 0.0),
                 stops: [0.0, 1.0],
@@ -56,7 +56,7 @@ class _AuthenticScreenState extends State<AuthenticScreen> {
         body: Container(
           decoration: BoxDecoration(
             gradient: new LinearGradient(
-              colors: [Colors.pink, Colors.lightGreenAccent],
+              colors: [Colors.green, Colors.orange],
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
             ),
