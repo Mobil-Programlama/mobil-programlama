@@ -358,12 +358,12 @@ class _UploadPageState extends State<UploadPage>
       "title": _titleTextEditingController.text.trim(),
       "shortInfo": _shortInfoTextEditingController.text.trim(),
       "longDescription": _descriptionTextEditingController.text.trim(),
-      "price": _priceTextEditingController.text
-          .trim(), //kayıt tarihini ve mevcut olup olmadığını buradan aldık
+      "price": int.parse(_priceTextEditingController
+          .text), //kayıt tarihini ve mevcut olup olmadığını buradan aldık
       "publishedDate": DateTime.now(),
       "status": "availible",
       //
-      "thumpnaiUrl": downloadUrl,
+      "thumbnailUrl": downloadUrl,
     });
     setState(() {
       file = null;

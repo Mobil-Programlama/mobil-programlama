@@ -29,6 +29,9 @@ class _LoginState extends State<Login> {
         child: Column(
           mainAxisSize: MainAxisSize.max,
           children: [
+            SizedBox(
+              height: 10.0,
+            ),
             Container(
               alignment: Alignment.bottomCenter,
               child: Image.asset(
@@ -56,7 +59,7 @@ class _LoginState extends State<Login> {
                   ),
                   CustomTextField(
                     controller: _passwordTextEditingController,
-                    data: Icons.person,
+                    data: Icons.lock,
                     hintText: "Şifre",
                     isObsecure: true,
                   ),
@@ -83,7 +86,7 @@ class _LoginState extends State<Login> {
               ),
             ),
             SizedBox(
-              height: 40.0,
+              height: 20.0,
             ),
             Container(
               height: 4.0,
