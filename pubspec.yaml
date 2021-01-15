@@ -1,5 +1,5 @@
 name: e_shop
-description: Flutter eCommerce App using Firebase Firestore from Coding Cafe
+description: Flutter eCommerce App
 
 version: 1.0.0+1
 
@@ -9,7 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  http:
+  html:
   cupertino_icons: ^0.1.2
   cloud_firestore: ^0.13.2+1
   firebase_auth: ^0.15.4

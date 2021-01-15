@@ -77,7 +77,12 @@ class _StoreHomeState extends State<StoreHome> {
                       child: Consumer<CartItemCounter>(
                         builder: (context, counter, _) {
                           return Text(
-                            counter.count.toString(),
+                            (EcommerceApp.sharedPreferences
+                                        .getStringList(
+                                            EcommerceApp.userCartList)
+                                        .length -
+                                    1)
+                                .toString(),
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 12.0,
@@ -133,7 +138,7 @@ Widget sourceInfo(ItemModel model, BuildContext context,
   return InkWell(
     splashColor: Colors.pink,
     child: Padding(
-      padding: EdgeInsets.all(6.0),
+      padding: EdgeInsets.all(8.0),
       child: Container(
         height: 190.0,
         width: width,
@@ -152,7 +157,7 @@ Widget sourceInfo(ItemModel model, BuildContext context,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(
-                    height: 0.0,
+                    height: 12.0,
                   ),
                   Container(
                     child: Row(
@@ -169,7 +174,7 @@ Widget sourceInfo(ItemModel model, BuildContext context,
                     ),
                   ),
                   SizedBox(
-                    height: 9.0,
+                    height: 5.0,
                   ),
                   Container(
                     child: Row(
@@ -268,10 +273,46 @@ Widget sourceInfo(ItemModel model, BuildContext context,
                                   ),
                                   width:
                                       MediaQuery.of(context).size.width - 280,
-                                  height: 50.0,
+                                  height: 25.0,
                                   child: Center(
                                     child: Text(
                                       "Sepete Ekle",
+                                      style: TextStyle(color: Colors.white),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            height: 11.0,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(top: 0.0),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  removeCartFunction();
+                                  Route route = MaterialPageRoute(
+                                      builder: (c) => CartPage());
+                                  Navigator.pushReplacement(context, route);
+                                },
+                                child: Container(
+                                  decoration: new BoxDecoration(
+                                    gradient: new LinearGradient(
+                                      colors: [Colors.green, Colors.orange],
+                                      begin: const FractionalOffset(0.0, 0.0),
+                                      end: const FractionalOffset(1.0, 0.0),
+                                      stops: [0.0, 1.0],
+                                      tileMode: TileMode.clamp,
+                                    ),
+                                  ),
+                                  width:
+                                      MediaQuery.of(context).size.width - 280,
+                                  height: 25.0,
+                                  child: Center(
+                                    child: Text(
+                                      "Sepetten Çıkar",
                                       style: TextStyle(color: Colors.white),
                                     ),
                                   ),
@@ -323,7 +364,29 @@ Widget sourceInfo(ItemModel model, BuildContext context,
 }
 
 Widget card({Color primaryColor = Colors.redAccent, String imgPath}) {
-  return Container();
+  return Container(
+    // Buradan sonra bir bug oldu. Sorun olursa buraya bak
+    height: 150.0,
+    width: width * .34,
+    margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+    decoration: BoxDecoration(
+      color: primaryColor,
+      borderRadius: BorderRadius.all(Radius.circular(20.0)),
+      boxShadow: <BoxShadow>[
+        BoxShadow(
+            offset: Offset(0, 5), blurRadius: 10.0, color: Colors.grey[200]),
+      ],
+    ),
+    child: ClipRRect(
+      borderRadius: BorderRadius.all(Radius.circular(20.0)),
+      child: Image.network(
+        imgPath,
+        height: 150.0,
+        width: width * .34,
+        fit: BoxFit.fill,
+      ),
+    ),
+  );
 }
 
 checkItemInCart(String shortInfoAsID, BuildContext context) {
