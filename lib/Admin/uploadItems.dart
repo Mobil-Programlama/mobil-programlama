@@ -3,6 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e_shop/Admin/adminShiftOrders.dart';
 import 'package:e_shop/Widgets/loadingWidget.dart';
 import 'package:e_shop/main.dart';
+import 'package:e_shop/Admin/updateItems.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -29,6 +30,7 @@ class _UploadPageState extends State<UploadPage>
   bool uploading = false;
 
   @override
+  // ignore: must_call_super
   Widget build(BuildContext context) {
     return file == null
         ? displayAdminHomeScreem()
@@ -88,17 +90,39 @@ class _UploadPageState extends State<UploadPage>
           tileMode: TileMode.clamp,
         ),
       ),
-      child: Center(
+
+      /*child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(
-              Icons.shop_two,
+              Icons.shop,
               color: Colors.white,
-              size: 200.0,
+              size: 100.0,
             ),
             Padding(
-              padding: EdgeInsets.only(top: 20.0),
+              padding: EdgeInsets.only(top: 10.0),
+              child: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(9.0)),
+                child: Text(
+                  "Ürünleri Listele",
+                  style: TextStyle(fontSize: 20.0, color: Colors.white),
+                ),
+                color: Colors.red,
+                // onPressed: () ,
+              ),
+            ),
+            SizedBox(
+              height: 100,
+            ),
+            Icon(
+              Icons.add,
+              color: Colors.white,
+              size: 100.0,
+            ),
+            Padding(
+              padding: EdgeInsets.only(top: 10.0),
               child: RaisedButton(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(9.0)),
@@ -112,7 +136,7 @@ class _UploadPageState extends State<UploadPage>
             ),
           ],
         ),
-      ),
+      ),*/
     );
   }
 
@@ -171,6 +195,7 @@ class _UploadPageState extends State<UploadPage>
     });
   }
 
+  // ignore: non_constant_identifier_names
   PickPhotoFromGallery() async {
     Navigator.pop(context);
     File imageFile = await ImagePicker.pickImage(source: ImageSource.gallery);
