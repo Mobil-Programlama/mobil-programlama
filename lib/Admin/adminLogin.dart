@@ -4,6 +4,7 @@ import 'package:e_shop/Authentication/authenication.dart';
 import 'package:e_shop/Widgets/customTextField.dart';
 import 'package:e_shop/DialogBox/errorDialog.dart';
 import 'package:flutter/material.dart';
+import 'package:e_shop/carrier/carrierPage.dart';
 
 class AdminSignInPage extends StatelessWidget {
   @override
@@ -76,7 +77,7 @@ class _AdminSignInScreenState extends State<AdminSignInScreen> {
             Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
-                "Admin",
+                "Admin/Kurye",
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 20.0,
@@ -90,7 +91,7 @@ class _AdminSignInScreenState extends State<AdminSignInScreen> {
                   CustomTextField(
                     controller: _adminIDTextEditingController,
                     data: Icons.person,
-                    hintText: "Admin Id",
+                    hintText: "Admin / Kurye Id",
                     isObsecure: false,
                   ),
                   CustomTextField(
@@ -105,30 +106,43 @@ class _AdminSignInScreenState extends State<AdminSignInScreen> {
             SizedBox(
               height: 20.0,
             ),
-            RaisedButton(
-              onPressed: () {
-                _adminIDTextEditingController.text.isNotEmpty &&
-                        _passwordTextEditingController.text.isNotEmpty
-                    ? loginAdmin()
-                    : showDialog(
-                        context: context,
-                        builder: (c) {
-                          return ErrorAlertDialog(
-                            message: "Lütfen Email ve Şifrenizi Girin",
-                          );
-                        });
-              },
-              color: Colors.red,
-              child: Text(
-                "Giriş",
-                style: TextStyle(color: Colors.white),
-              ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                RaisedButton(
+                  onPressed: () {
+                    _adminIDTextEditingController.text.isNotEmpty &&
+                            _passwordTextEditingController.text.isNotEmpty
+                        ? loginAdmin()
+                        : showDialog(
+                            context: context,
+                            builder: (c) {
+                              return ErrorAlertDialog(
+                                message: "Lütfen Email ve Şifrenizi Girin",
+                              );
+                            });
+                  },
+                  color: Colors.red,
+                  child: Text(
+                    "Admin Giriş",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+                SizedBox(
+                  width: 30.0,
+                ),
+                RaisedButton(
+                  onPressed: () {},
+                  color: Colors.red,
+                  child: Text(
+                    "Kurye Giriş",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ],
             ),
             SizedBox(
-              height: 50.0,
-            ),
-            SizedBox(
-              height: 20.0,
+              height: 70.0,
             ),
             FlatButton.icon(
               onPressed: () => Navigator.push(context,
@@ -178,4 +192,30 @@ class _AdminSignInScreenState extends State<AdminSignInScreen> {
       });
     });
   }
+
+  /*loginCarrier() {
+    Firestore.instance.collection("carrier").getDocuments().then((snapshot) {
+      snapshot.documents.forEach((result) {
+        if (result.data["Id"] != _adminIDTextEditingController.text.trim()) {
+          Scaffold.of(context).showSnackBar(SnackBar(
+            content: Text("Kurye Id Uyuşmuyor"),
+          ));
+        } else if (result.data["password"] !=
+            _passwordTextEditingController.text.trim()) {
+          Scaffold.of(context).showSnackBar(SnackBar(
+            content: Text("Kurye Şifre Uyuşmuyor"),
+          ));
+        } else {
+          setState(() {
+            _adminIDTextEditingController.text = "";
+            _passwordTextEditingController.text = "";
+          });
+
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Carrier()),
+          );
+        }
+      });
+    });*/
 }

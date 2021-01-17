@@ -96,6 +96,7 @@ class _LoginState extends State<Login> {
             SizedBox(
               height: 10.0,
             ),
+            Row(),
             FlatButton.icon(
               onPressed: () => Navigator.push(context,
                   MaterialPageRoute(builder: (context) => AdminSignInPage())),
@@ -104,11 +105,23 @@ class _LoginState extends State<Login> {
                 color: Colors.red,
               )),
               label: Text(
-                "Admin Giriş",
+                "Admin/Kurye Giriş",
                 style:
                     TextStyle(color: Colors.red, fontWeight: FontWeight.bold),
               ),
-            )
+            ),
+            FlatButton.icon(
+              onPressed: null,
+              icon: (Icon(
+                Icons.nature_people,
+                color: Colors.red,
+              )),
+              label: Text(
+                "Kurye Giriş",
+                style:
+                    TextStyle(color: Colors.red, fontWeight: FontWeight.bold),
+              ),
+            ),
           ],
         ),
       ),

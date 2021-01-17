@@ -1,13 +1,12 @@
 import 'package:e_shop/Authentication/authenication.dart';
 import 'package:e_shop/Config/config.dart';
 import 'package:e_shop/Address/addAddress.dart';
-import 'package:e_shop/Store/Search.dart';
+
 import 'package:e_shop/Store/cart.dart';
 import 'package:e_shop/Orders/myOrders.dart';
 import 'package:e_shop/Store/storehome.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class MyDrawer extends StatelessWidget {
   @override
@@ -16,7 +15,7 @@ class MyDrawer extends StatelessWidget {
       child: ListView(
         children: [
           Container(
-            padding: EdgeInsets.only(top: 15.0, bottom: 15.0),
+            padding: EdgeInsets.only(top: 1.0, bottom: 15.0),
             decoration: new BoxDecoration(
               gradient: new LinearGradient(
                 colors: [

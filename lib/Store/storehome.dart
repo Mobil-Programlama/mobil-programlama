@@ -167,7 +167,7 @@ Widget sourceInfo(ItemModel model, BuildContext context,
                           child: Text(
                             model.title,
                             style:
-                                TextStyle(color: Colors.black, fontSize: 25.0),
+                                TextStyle(color: Colors.black, fontSize: 20.0),
                           ),
                         ),
                       ],
@@ -184,7 +184,7 @@ Widget sourceInfo(ItemModel model, BuildContext context,
                           child: Text(
                             model.shortInfo,
                             style: TextStyle(
-                                color: Colors.black54, fontSize: 20.0),
+                                color: Colors.black54, fontSize: 15.0),
                           ),
                         ),
                       ],
