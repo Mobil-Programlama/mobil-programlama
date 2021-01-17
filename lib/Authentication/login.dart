@@ -110,18 +110,6 @@ class _LoginState extends State<Login> {
                     TextStyle(color: Colors.red, fontWeight: FontWeight.bold),
               ),
             ),
-            FlatButton.icon(
-              onPressed: null,
-              icon: (Icon(
-                Icons.nature_people,
-                color: Colors.red,
-              )),
-              label: Text(
-                "Kurye Giriş",
-                style:
-                    TextStyle(color: Colors.red, fontWeight: FontWeight.bold),
-              ),
-            ),
           ],
         ),
       ),

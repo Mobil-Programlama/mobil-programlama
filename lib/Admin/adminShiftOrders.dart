@@ -4,7 +4,6 @@ import 'package:e_shop/Config/config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../Widgets/loadingWidget.dart';
-import '../Widgets/orderCard.dart';
 
 class AdminShiftOrders extends StatefulWidget {
   @override
@@ -17,7 +16,9 @@ class _MyOrdersState extends State<AdminShiftOrders> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          iconTheme: IconThemeData(color: Colors.white),
+          iconTheme: IconThemeData(
+            color: Colors.white,
+          ),
           flexibleSpace: Container(
             decoration: new BoxDecoration(
               gradient: new LinearGradient(

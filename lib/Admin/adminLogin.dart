@@ -4,7 +4,6 @@ import 'package:e_shop/Authentication/authenication.dart';
 import 'package:e_shop/Widgets/customTextField.dart';
 import 'package:e_shop/DialogBox/errorDialog.dart';
 import 'package:flutter/material.dart';
-import 'package:e_shop/carrier/carrierPage.dart';
 
 class AdminSignInPage extends StatelessWidget {
   @override
